@@ -1,0 +1,62 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  background-image: url(wallpapersden.com_minimal-hd-landscape_1920x1080.jpg);
+  justify-content: center;
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  opacity: 0.9;  
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.timer-container {
+  text-align: center;
+  background-color: rgba(255,255,255,0.2);
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  position: grid;
+  
+}
+
+#timer {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: whitesmoke;
+}
+
+input {
+  width: 80px;
+  padding: 12px;
+  margin: 10px;
+  font-size: 1rem;
+  border: 0.1px solid rgb(255, 255, 255);
+  border-radius: 6px;
+  text-align: center;
+  outline: none;
+}
+
+input:focus {
+  border-color: #1c92d2;
+}
+
+button {
+  padding: 12px 20px;
+  margin: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #144b69;
+  color: #ffffff;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #166ea6;
+}
